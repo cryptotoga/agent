@@ -1,0 +1,30 @@
+# 환경변수 및 비밀키 (절대 업로드 금지)
+.env
+.env.*
+*.pem
+*.key
+
+# 파이썬 가상환경 및 캐시
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 런타임 생성 파일 및 로그
+static/screenshots/*.png
+static/screenshots/*.jpg
+*.log
+
+# OS 및 에디터 설정
+.DS_Store
+.vscode/
+.idea/
+
+# Google API 인증 및 토큰 (절대 업로드 금지)
+credentials.json
+token.json
+*secret*.json
+
+# 도커 이미지 아카이브 및 Windows 메타데이터
+*.tar
+*:Zone.Identifier
