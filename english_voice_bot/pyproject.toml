@@ -1,0 +1,13 @@
+[project]
+name = "english-voice-bot"
+version = "0.1.0"
+description = "Discord Real-time Sentence-Buffered English Tutor with Gemini 2.5"
+requires-python = ">=3.12"
+dependencies = [
+    "py-cord[voice] @ git+https://github.com/Pycord-Development/pycord@refs/pull/3159/head",
+    "davey>=0.1.6",
+    "google-genai>=1.0.0",
+    "edge-tts>=7.0.0",
+    "python-dotenv>=1.0.0",
+    "numpy>=2.0.0",
+]
